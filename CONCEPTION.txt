@@ -1,0 +1,68 @@
+#Conception:
+
+We added the following important classes to the game:
+
+#Added Enemies
+
+The DarkLord and flameSkull (the enemies he spawns), these classes are subclasses from enemies as they have a
+certain amount of health, the default enemy interaction (damages the  player if he is in front of them)
+as well as being as there name suggest, enemies of the player.
+
+(We also modified the turrets to have them only shoot when the player is in front of them and have them attack the
+player when he is in front of them)
+
+We modified the code of the enemy class to have them drop hearts on death.
+
+#Added Rooms
+
+We added different rooms that inherit from item rooms as they contain items to collect these are:
+- Level0cherryRoom: contains a cherry (item that heals you) to collect. (We decided to not implement this room to make
+the game harder.)
+
+- Level0FireStaffRoom: contains a water staff to collect.
+- Level0WaterStaffRoom: contains a fire staff to collect.
+
+We also added a new room that inherits from Level0EnemyRoom, the Level0BossRoom, this room inherits from the Level0Enemy
+as it adds an enemy the DarkLord.
+
+#Added Items
+
+We also added the weapon abstract class from which inherit the water Staff and the fire Staff, we used a common
+parent class as these two items have very similar characteristics.
+
+We added the NinjaPNJ class that is a subclass from an item (we decided that it would inherit from items
+as he only interacts once with the player then is collected, it would not make sense to add him as a movable area entity
+as he doesn't move, he can be seen as an item that displays a dialogue when interacted with)
+
+We added the heart item that heals the player, it inherits from items
+as it is collectable and doesn't move (he is created when enemies die).
+
+#Added Projectiles
+
+We added the Water ball, it is the projectile of the water staff. We decided it would inherit from the projectile class
+as it has common characteristics such as the same default interaction of projectiles.
+
+#Added menu screens
+We added a pauseMenu, and a specific screen when the player dies or wins. These screens are found
+in the folder MenuScreens.
+
+#Main modifications
+
+The main modifications we did inside classes is in the ICRogueActor to draw animations and get different list of cells
+to implement complex interactions such as for the turret to only shoot when he sees the player in his axis or for
+Fire Skulls to follow the player (by having his view interaction be all the cells in the room to get the player
+coordinates in the interaction handler).
+
+We modified the random generation of the map, so the player has to defeat the enemy room to access the water staff
+room and the boss key room, these specific rooms will be placed one after the other.
+The enemy rooms are also randomly generated now.
+
+We decided to not use the map state created as we do not use it. We preferred to keep the identity of each
+room on the mapStatement. As first of all, our algorithm used to generate random levels do not use it. Second of all
+our algorithm first creates rooms with a restriction and then creates the basic rooms, by marking the rooms with
+restrictions as created we could not differentiate between them, such as differentiate the boss room and turret room
+to set the correct locked connector. Finally, if we wanted to create an extension that displayed the map, keeping the
+room identity is necessary.
+
+Inside the player we added multiple methods to allow him to have multiples weapons, and get a different animation depending
+on his weapon, and that he would have a health bar.
