@@ -11,7 +11,6 @@ import icrogue.engine.io.FileSystem;
 import icrogue.engine.math.DiscreteCoordinates;
 import icrogue.engine.math.Transform;
 import icrogue.engine.math.Vector;
-import icrogue.engine.window.Canvas;
 import icrogue.engine.window.Keyboard;
 import icrogue.engine.window.Mouse;
 import icrogue.engine.window.Window;

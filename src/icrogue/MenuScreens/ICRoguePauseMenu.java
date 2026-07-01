@@ -3,7 +3,6 @@ package icrogue.MenuScreens;
 import icrogue.engine.game.PauseMenu;
 import icrogue.engine.game.areagame.Area;
 import icrogue.engine.game.areagame.actor.Text;
-import icrogue.actor.ICRogueGraphics;
 import icrogue.engine.math.DiscreteCoordinates;
 import icrogue.engine.window.Canvas;
 

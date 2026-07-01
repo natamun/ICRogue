@@ -2,8 +2,6 @@ package icrogue.actor.projectiles;
 
 import icrogue.engine.game.areagame.Area;
 import icrogue.engine.game.areagame.actor.*;
-import icrogue.actor.enemies.Enemy;
-import icrogue.handler.ICRogueInteractionHandler;
 import icrogue.engine.math.DiscreteCoordinates;
 import icrogue.engine.math.Vector;
 

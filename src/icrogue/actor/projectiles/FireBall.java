@@ -4,8 +4,6 @@ import icrogue.engine.game.areagame.Area;
 import icrogue.engine.game.areagame.actor.*;
 import icrogue.actor.enemies.Enemy;
 import icrogue.actor.enemies.FlameSkull;
-import icrogue.actor.enemies.Turret;
-import icrogue.handler.ICRogueInteractionHandler;
 import icrogue.engine.math.DiscreteCoordinates;
 import icrogue.engine.math.Vector;
 

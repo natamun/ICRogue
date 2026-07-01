@@ -4,10 +4,7 @@ import icrogue.engine.game.areagame.AreaBehavior;
 import icrogue.engine.game.areagame.actor.Interactable;
 import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
 import icrogue.handler.ICRogueInteractionHandler;
-import icrogue.engine.math.DiscreteCoordinates;
 import icrogue.engine.window.Window;
-
-import java.util.List;
 
 
 /*
