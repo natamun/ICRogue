@@ -1,6 +1,6 @@
-package icrogue.game.icrogue;
+package icrogue;
 
-import icrogue.window.Keyboard;
+import icrogue.engine.window.Keyboard;
 
 public interface ICRogueKeybinds {
 

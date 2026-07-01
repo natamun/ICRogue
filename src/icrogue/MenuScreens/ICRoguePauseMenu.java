@@ -1,11 +1,11 @@
-package icrogue.game.icrogue.MenuScreens;
+package icrogue.MenuScreens;
 
-import icrogue.game.PauseMenu;
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Text;
-import icrogue.game.icrogue.actor.ICRogueGraphics;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.window.Canvas;
+import icrogue.engine.game.PauseMenu;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Text;
+import icrogue.actor.ICRogueGraphics;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.window.Canvas;
 
 import java.awt.*;
 

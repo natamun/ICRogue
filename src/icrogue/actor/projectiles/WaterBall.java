@@ -1,11 +1,11 @@
-package icrogue.game.icrogue.actor.projectiles;
+package icrogue.actor.projectiles;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.*;
-import icrogue.game.icrogue.actor.enemies.Enemy;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.Vector;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.*;
+import icrogue.actor.enemies.Enemy;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.Vector;
 
 /*
  * Author :     Natalino MUNARI

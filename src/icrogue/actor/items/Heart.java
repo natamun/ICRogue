@@ -1,12 +1,12 @@
-package icrogue.game.icrogue.actor.items;
+package icrogue.actor.items;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Animation;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Animation;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
 public class Heart extends Item {
     /**
      * Creates an instance of a heart

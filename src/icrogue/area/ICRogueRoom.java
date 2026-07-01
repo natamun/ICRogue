@@ -1,16 +1,16 @@
-package icrogue.game.icrogue.area;
+package icrogue.area;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Background;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.icrogue.ICRogue;
-import icrogue.game.icrogue.ICRogueBehavior;
-import icrogue.game.icrogue.actor.Connector;
-import icrogue.game.icrogue.area.level0.rooms.Level0Room;
-import icrogue.io.FileSystem;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.signal.logic.Logic;
-import icrogue.window.Window;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Background;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.ICRogue;
+import icrogue.ICRogueBehavior;
+import icrogue.actor.Connector;
+import icrogue.area.level0.rooms.Level0Room;
+import icrogue.engine.io.FileSystem;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.signal.logic.Logic;
+import icrogue.engine.window.Window;
 import java.util.ArrayList;
 import java.util.List;
 

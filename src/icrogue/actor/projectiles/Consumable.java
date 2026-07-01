@@ -1,4 +1,4 @@
-package icrogue.game.icrogue.actor.projectiles;
+package icrogue.actor.projectiles;
 
 public interface Consumable {
     /** Consume the item.

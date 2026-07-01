@@ -1,19 +1,19 @@
-package icrogue.game.icrogue.handler;
+package icrogue.handler;
 
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.ICRogueBehavior;
-import icrogue.game.icrogue.actor.Connector;
-import icrogue.game.icrogue.actor.ICRoguePlayer;
-import icrogue.game.icrogue.actor.enemies.DarkLord;
-import icrogue.game.icrogue.actor.enemies.Enemy;
-import icrogue.game.icrogue.actor.enemies.Turret;
-import icrogue.game.icrogue.actor.friendlyNPC.NinjaPNJ;
-import icrogue.game.icrogue.actor.items.*;
-import icrogue.game.icrogue.actor.projectiles.Arrow;
-import icrogue.game.icrogue.actor.projectiles.FireBall;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.ICRogueBehavior;
+import icrogue.actor.Connector;
+import icrogue.actor.ICRoguePlayer;
+import icrogue.actor.enemies.DarkLord;
+import icrogue.actor.enemies.Enemy;
+import icrogue.actor.enemies.Turret;
+import icrogue.actor.friendlyNPC.NinjaPNJ;
+import icrogue.actor.items.*;
+import icrogue.actor.projectiles.Arrow;
+import icrogue.actor.projectiles.FireBall;
 
-import icrogue.game.icrogue.actor.projectiles.Projectile;
-import icrogue.game.icrogue.actor.projectiles.WaterBall;
+import icrogue.actor.projectiles.Projectile;
+import icrogue.actor.projectiles.WaterBall;
 
 public interface ICRogueInteractionHandler extends AreaInteractionVisitor {
     /**

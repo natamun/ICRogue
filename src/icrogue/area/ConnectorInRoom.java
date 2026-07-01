@@ -1,6 +1,6 @@
-package icrogue.game.icrogue.area;
+package icrogue.area;
 
-import icrogue.math.DiscreteCoordinates;
+import icrogue.engine.math.DiscreteCoordinates;
 
 public interface ConnectorInRoom {
     int getIndex();

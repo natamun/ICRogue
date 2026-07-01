@@ -1,9 +1,9 @@
-package icrogue.game.icrogue.area.level0.rooms;
+package icrogue.area.level0.rooms;
 
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.icrogue.actor.friendlyNPC.NinjaPNJ;
-import icrogue.game.icrogue.actor.items.FireStaff;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.actor.friendlyNPC.NinjaPNJ;
+import icrogue.actor.items.FireStaff;
+import icrogue.engine.math.DiscreteCoordinates;
 
 public class Level0FireStaffRoom extends Level0ItemRoom{
     /**

@@ -1,13 +1,13 @@
-package icrogue.game.icrogue.actor.projectiles;
+package icrogue.actor.projectiles;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.icrogue.actor.ICRoguePlayer;
-import icrogue.game.icrogue.actor.enemies.Enemy;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.RegionOfInterest;
-import icrogue.math.Vector;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.actor.ICRoguePlayer;
+import icrogue.actor.enemies.Enemy;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.RegionOfInterest;
+import icrogue.engine.math.Vector;
 
 public class Arrow extends Projectile {
     private final static int ARROW_DAMAGE = 1;

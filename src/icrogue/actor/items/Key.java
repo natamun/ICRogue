@@ -1,12 +1,12 @@
-package icrogue.game.icrogue.actor.items;
+package icrogue.actor.items;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
-import static icrogue.game.icrogue.area.level0.Level0.BOSS_KEY_ID;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
+import static icrogue.area.level0.Level0.BOSS_KEY_ID;
 
 public class Key extends Item{
     private int keyID;

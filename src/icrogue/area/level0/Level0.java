@@ -1,9 +1,9 @@
-package icrogue.game.icrogue.area.level0;
+package icrogue.area.level0;
 
-import icrogue.game.icrogue.area.ConnectorInRoom;
-import icrogue.game.icrogue.area.Level;
-import icrogue.game.icrogue.area.level0.rooms.*;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.area.ConnectorInRoom;
+import icrogue.area.Level;
+import icrogue.area.level0.rooms.*;
+import icrogue.engine.math.DiscreteCoordinates;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

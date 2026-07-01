@@ -1,7 +1,7 @@
-package icrogue.game.icrogue.area.level0.rooms;
+package icrogue.area.level0.rooms;
 
-import icrogue.game.icrogue.actor.items.Item;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.actor.items.Item;
+import icrogue.engine.math.DiscreteCoordinates;
 import java.util.ArrayList;
 import java.util.List;
 

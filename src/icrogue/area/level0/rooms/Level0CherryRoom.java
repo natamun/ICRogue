@@ -1,8 +1,8 @@
-package icrogue.game.icrogue.area.level0.rooms;
+package icrogue.area.level0.rooms;
 
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.icrogue.actor.items.Cherry;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.actor.items.Cherry;
+import icrogue.engine.math.DiscreteCoordinates;
 
 public class Level0CherryRoom extends Level0ItemRoom{
     /**

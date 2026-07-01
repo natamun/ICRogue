@@ -1,11 +1,11 @@
-package icrogue.game.icrogue;
+package icrogue;
 
-import icrogue.game.areagame.AreaBehavior;
-import icrogue.game.areagame.actor.Interactable;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.window.Window;
+import icrogue.engine.game.areagame.AreaBehavior;
+import icrogue.engine.game.areagame.actor.Interactable;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.window.Window;
 
 import java.util.List;
 

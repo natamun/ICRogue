@@ -1,17 +1,17 @@
-package icrogue.game.icrogue.actor.friendlyNPC;
+package icrogue.actor.friendlyNPC;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Animation;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.actor.items.Item;
-import icrogue.game.icrogue.area.level0.rooms.Level0FireStaffRoom;
-import icrogue.game.icrogue.area.level0.rooms.Level0WaterStaffRoom;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.RegionOfInterest;
-import icrogue.window.Canvas;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Animation;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.actor.items.Item;
+import icrogue.area.level0.rooms.Level0FireStaffRoom;
+import icrogue.area.level0.rooms.Level0WaterStaffRoom;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.RegionOfInterest;
+import icrogue.engine.window.Canvas;
 
 public class NinjaPNJ extends Item {
     //Sprite source :

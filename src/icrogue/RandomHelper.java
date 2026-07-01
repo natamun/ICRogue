@@ -1,4 +1,4 @@
-package icrogue.game.icrogue;
+package icrogue;
 
 import java.util.ArrayList;
 import java.util.List;

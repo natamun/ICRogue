@@ -1,13 +1,12 @@
 package icrogue;
 
-import icrogue.game.Game;
-import icrogue.game.areagame.io.ResourcePath;
-import icrogue.game.icrogue.ICRogue;
-import icrogue.io.DefaultFileSystem;
-import icrogue.io.FileSystem;
-import icrogue.io.ResourceFileSystem;
-import icrogue.window.Window;
-import icrogue.window.swing.SwingWindow;
+import icrogue.engine.game.Game;
+import icrogue.engine.game.areagame.io.ResourcePath;
+import icrogue.engine.io.DefaultFileSystem;
+import icrogue.engine.io.FileSystem;
+import icrogue.engine.io.ResourceFileSystem;
+import icrogue.engine.window.Window;
+import icrogue.engine.window.swing.SwingWindow;
 
 /**
  * Main entry point.

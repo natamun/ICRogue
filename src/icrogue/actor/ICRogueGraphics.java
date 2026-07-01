@@ -1,11 +1,11 @@
-package icrogue.game.icrogue.actor;
+package icrogue.actor;
 
-import icrogue.game.actor.ImageGraphics;
-import icrogue.game.actor.TextGraphics;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.areagame.io.ResourcePath;
-import icrogue.math.TextAlign;
-import icrogue.math.Vector;
+import icrogue.engine.game.actor.ImageGraphics;
+import icrogue.engine.game.actor.TextGraphics;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.engine.game.areagame.io.ResourcePath;
+import icrogue.engine.math.TextAlign;
+import icrogue.engine.math.Vector;
 import java.awt.*;
 
 public interface ICRogueGraphics {

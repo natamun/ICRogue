@@ -1,14 +1,14 @@
-package icrogue.game.icrogue.actor;
+package icrogue.actor;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.AreaEntity;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.areagame.actor.Sprite;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.Vector;
-import icrogue.window.Canvas;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.AreaEntity;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.engine.game.areagame.actor.Sprite;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.Vector;
+import icrogue.engine.window.Canvas;
 
 import java.util.List;
 

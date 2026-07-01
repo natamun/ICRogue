@@ -1,14 +1,14 @@
-package icrogue.game.icrogue.actor.projectiles;
+package icrogue.actor.projectiles;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.*;
-import icrogue.game.areagame.handler.AreaInteractionVisitor;
-import icrogue.game.icrogue.ICRogueBehavior;
-import icrogue.game.icrogue.actor.ICRogueActor;
-import icrogue.game.icrogue.actor.enemies.Enemy;
-import icrogue.game.icrogue.actor.items.Weapon;
-import icrogue.game.icrogue.handler.ICRogueInteractionHandler;
-import icrogue.math.DiscreteCoordinates;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.*;
+import icrogue.engine.game.areagame.handler.AreaInteractionVisitor;
+import icrogue.ICRogueBehavior;
+import icrogue.actor.ICRogueActor;
+import icrogue.actor.enemies.Enemy;
+import icrogue.actor.items.Weapon;
+import icrogue.handler.ICRogueInteractionHandler;
+import icrogue.engine.math.DiscreteCoordinates;
 
 public abstract class Projectile extends ICRogueActor implements Consumable, Interactor {
     private int damage;

@@ -1,11 +1,11 @@
-package icrogue.game.icrogue.actor.items;
+package icrogue.actor.items;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.Animation;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.icrogue.actor.projectiles.Projectile;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.Positionable;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.Animation;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.actor.projectiles.Projectile;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.Positionable;
 
 public interface PlayerUsingWeapon {
     /**

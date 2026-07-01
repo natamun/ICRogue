@@ -1,19 +1,19 @@
-package icrogue.game.icrogue;
+package icrogue;
 
 
-import icrogue.game.areagame.AreaGame;
-import icrogue.game.areagame.actor.Orientation;
-import icrogue.game.icrogue.MenuScreens.ICRogueGameOverMenu;
-import icrogue.game.icrogue.MenuScreens.ICRoguePauseMenu;
-import icrogue.game.icrogue.MenuScreens.ICRogueWonMenu;
-import icrogue.game.icrogue.actor.ICRoguePlayer;
-import icrogue.game.icrogue.area.ICRogueRoom;
-import icrogue.game.icrogue.area.level0.Level0;
-import icrogue.game.icrogue.area.level0.rooms.Level0Room;
-import icrogue.io.FileSystem;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.window.Keyboard;
-import icrogue.window.Window;
+import icrogue.engine.game.areagame.AreaGame;
+import icrogue.engine.game.areagame.actor.Orientation;
+import icrogue.MenuScreens.ICRogueGameOverMenu;
+import icrogue.MenuScreens.ICRoguePauseMenu;
+import icrogue.MenuScreens.ICRogueWonMenu;
+import icrogue.actor.ICRoguePlayer;
+import icrogue.area.ICRogueRoom;
+import icrogue.area.level0.Level0;
+import icrogue.area.level0.rooms.Level0Room;
+import icrogue.engine.io.FileSystem;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.window.Keyboard;
+import icrogue.engine.window.Window;
 
 
 public class ICRogue extends AreaGame implements ICRogueKeybinds {

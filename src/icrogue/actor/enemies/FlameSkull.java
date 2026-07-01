@@ -1,11 +1,11 @@
-package icrogue.game.icrogue.actor.enemies;
+package icrogue.actor.enemies;
 
-import icrogue.game.areagame.Area;
-import icrogue.game.areagame.actor.*;
-import icrogue.game.icrogue.actor.ICRoguePlayer;
-import icrogue.math.DiscreteCoordinates;
-import icrogue.math.Vector;
-import icrogue.window.Canvas;
+import icrogue.engine.game.areagame.Area;
+import icrogue.engine.game.areagame.actor.*;
+import icrogue.actor.ICRoguePlayer;
+import icrogue.engine.math.DiscreteCoordinates;
+import icrogue.engine.math.Vector;
+import icrogue.engine.window.Canvas;
 import java.util.List;
 import java.util.Random;
 
