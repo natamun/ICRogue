@@ -17,20 +17,33 @@ import icrogue.engine.window.Window;
 
 
 public class ICRogue extends AreaGame implements ICRogueKeybinds {
+    public enum MapMode { RANDOM, CLASSIC, DEBUG }
+
     public final static float CAMERA_SCALE_FACTOR = 13.f;
     private Level0Room currentArea;
     private Level0 level0;
     private ICRoguePlayer player;
+    private final MapMode mapMode;
 
     private ICRogueRoom bossRoom;
+
+    public ICRogue() {
+        this(MapMode.RANDOM);
+    }
+
+    public ICRogue(MapMode mapMode) {
+        this.mapMode = mapMode;
+    }
+
     public String getTitle() {
         return "ICRogue";
     }
     private void initLevel(){
-        //Creation of the Level0, set random to true if you want a random map.
-        //If random is false, you can choose a map (map 0 and 1 allowed)
-        //0 for the map used to debug and 1 to have a classic experience.
-        level0 = new Level0(true, 1);
+        switch (mapMode) {
+            case CLASSIC -> level0 = new Level0(false, 1);
+            case DEBUG -> level0 = new Level0(false, 0);
+            default -> level0 = new Level0(true, 1);
+        }
 
         DiscreteCoordinates spawnCoord = level0.getRoomSpawn();
         ICRogueRoom[][] map = level0.getMap();

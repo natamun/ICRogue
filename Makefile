@@ -153,7 +153,7 @@ MAIN_CLASS	= icrogue.Play
 
 JAVAC		= javac
 JAVACFLAGS	= -d $(OUT_DIR) -encoding UTF-8
-RM		= rm -f
+RM			= rm -f
 
 all: $(NAME)
 
@@ -167,7 +167,13 @@ $(NAME): $(SRCS)
 	@echo "Build complete! Run with ./$(NAME)"
 
 run: $(NAME)
-	./$(NAME)
+	./$(NAME) random
+
+classic: $(NAME)
+	./$(NAME) classic
+
+debug: $(NAME)
+	./$(NAME) debug
 
 clean:
 	@echo "Cleaning compiled classes..."
@@ -181,4 +187,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all run clean fclean re
+.PHONY: all run classic debug clean fclean re
