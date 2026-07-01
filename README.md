@@ -1,5 +1,6 @@
 # ICRogue
 
+[![Build](https://github.com/natamun/game-ICRogue/actions/workflows/build.yml/badge.svg)](https://github.com/natamun/game-ICRogue/actions/workflows/build.yml)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Java](https://img.shields.io/badge/language-Java-orange.svg)
 
