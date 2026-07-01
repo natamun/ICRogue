@@ -146,7 +146,7 @@ SRCS		= $(SRC_DIR)/icrogue/ICRogue.java \
 			  $(SRC_DIR)/icrogue/engine/window/swing/TextItem.java \
 			  $(SRC_DIR)/icrogue/handler/ICRogueInteractionHandler.java
 
-RES_DIR		= res
+RES_DIR		= assets
 OUT_DIR		= out
 
 MAIN_CLASS	= icrogue.Play
