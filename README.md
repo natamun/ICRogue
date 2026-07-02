@@ -189,7 +189,7 @@ Each enemy type gets its own small, self-contained behavior:
 <img src="screenshots/turretsRoom.png" width="300" alt="A turret room, its challenge not yet resolved"><br><sub>Turrets: only fire down their own row/column.</sub>
 </p>
 <p align="center">
-<img src="screenshots/bossRoom.png" width="300" alt="The Dark Lord's chamber"><br><sub>The Dark Lord, mid-fight, with two flame skulls closing in.</sub>
+<img src="screenshots/bossRoom.png" width="300" alt="The Dark Lord's chamber"><br><sub>The Dark Lord, mid-fight, with three flame skulls closing in.</sub>
 </p>
 
 ### Menus
