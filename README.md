@@ -10,7 +10,7 @@ Built in **2022** for the **CS-107** course (EPFL), on top of a 2D grid-based ga
 
 This repository has since been refactored to be a standalone, exportable project: everything specific to the course's grading/submission process (the submission script with hardcoded student tokens, tutorial-only scaffolding, IDE project files, unused assets from earlier course exercises, etc.) has been removed, and the project is now compiled and launched through a simple `Makefile` (see [Compilation](#compilation) below).
 
-<p align="center"><img src="screenshots/gameplay.gif" width="300" alt="ICRogue gameplay preview"><br><sub>Player health (hearts, top-left) and the equipped weapon (icon, top-right) are always on screen.</sub></p>
+<p align="center"><img src="screenshots/gameplay.gif" width="300" alt="ICRogue gameplay preview"><br></p>
 
 ## Table of contents
 
